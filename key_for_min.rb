@@ -13,6 +13,6 @@ def key_for_min_value(name_hash)
     end
       index +=1
     end
+    ind = array_value.index(values)
+    array_key[ind]
   end
-  array_key[index]
-end
